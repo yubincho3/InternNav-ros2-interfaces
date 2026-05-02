@@ -2,13 +2,13 @@
 
 Custom ROS 2 message definitions shared across the InternNav server and client workspaces.
 
-## Package
+## 📦 Package
 
 | Package | Build Type |
 |---------|------------|
 | `internnav_interfaces` | ament_cmake |
 
-## Messages
+## 📨 Messages
 
 ### `DiscreteStamped.msg`
 
@@ -45,6 +45,6 @@ uint8[] actions            # ordered array of discrete action values
 
 > This workspace must be built and sourced **before** building `InternNav-ros2-server` or `InternNav-ros2-client`, as both depend on this package.
 
-## License
+## 📄 License
 
 This project is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) for details.
