@@ -44,3 +44,7 @@ uint8[] actions            # ordered array of discrete action values
 | `internnav_planner` (`InternNav-ros2-client`) | Subscriber — converts actions to robot motion commands |
 
 > This workspace must be built and sourced **before** building `InternNav-ros2-server` or `InternNav-ros2-client`, as both depend on this package.
+
+## License
+
+This project is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) for details.
